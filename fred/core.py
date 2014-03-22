@@ -123,4 +123,3 @@ class Fred(object):
         >>> Fred().sources()
         """
         return self.get('sources', path, **kwargs)
-
